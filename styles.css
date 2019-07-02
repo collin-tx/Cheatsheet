@@ -40,6 +40,7 @@ td {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 2.5rem;
+    margin: 2rem 3rem;
 }
 
 .grid-container {
@@ -47,6 +48,21 @@ td {
     height: 5rem;
     background: lightslategray;
     color: white;
+    align-content: center;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.grid-container:hover {
+    background: darksalmon;
+    border: 2px solid darkslateblue;
+}
+
+.grid-btns {
+    display: inline-block;
+    position: relative;
+    left: 34%;
 }
 
 
@@ -63,7 +79,7 @@ td {
 }
 
 .btn:hover {
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 .hide {
