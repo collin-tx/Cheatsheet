@@ -12,10 +12,6 @@ h2 {
     color: darksalmon;
 }
 
-.hide {
-    display: none;
-}
-
 .table-btns {
     display: inline-block;
     position: relative;
@@ -38,6 +34,22 @@ td {
 }
 
 
+/* CSS Grid */
+
+.css-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2.5rem;
+}
+
+.grid-container {
+    border: 1px solid salmon;
+    height: 5rem;
+    background: lightslategray;
+    color: white;
+}
+
+
 /* Buttons */
 
 .btn {
@@ -52,4 +64,8 @@ td {
 
 .btn:hover {
     opacity: 0.9;
+}
+
+.hide {
+    visibility: hidden;
 }
