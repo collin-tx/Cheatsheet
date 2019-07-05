@@ -142,6 +142,24 @@ td {
 .animate-img img {}
 
 
+/* Flexbox */
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+
+.flex {
+    padding: 4rem;
+    background: url(img/doggy2.jpg) no-repeat center;
+    margin: 2rem;
+}
+
+
 /* Buttons */
 
 .btn {
