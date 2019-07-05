@@ -6,6 +6,10 @@ const grid = document.querySelector('.css-grid');
 const gridShowButton = document.querySelector(".show-grid-btn");
 const gridHideButton = document.querySelector(".hide-grid-btn");
 
+const animation = document.querySelector('.animate-img');
+const showPuppy = document.querySelector(".show-animate-btn");
+const hidePuppy = document.querySelector(".hide-animate-btn");
+
 // displays table
 function showTable(e) {
     table.classList.remove('hide');
@@ -35,5 +39,23 @@ function hideGrid(e) {
     grid.classList.add('hide');
 }
 
-//when clicked, table will disappear
+//when clicked, grid will disappear
 gridHideButton.addEventListener('click', hideGrid);
+
+
+
+
+// displays animation
+function showAnimation(e) {
+    animation.classList.remove('hide');
+}
+// when clicked, puppy will appear
+showPuppy.addEventListener("click", showAnimation);
+
+// Hides puppy
+function hideAnimation(e) {
+    animation.classList.add('hide');
+}
+
+//when clicked, pup will disappear
+hidePuppy.addEventListener('click', hideAnimation);

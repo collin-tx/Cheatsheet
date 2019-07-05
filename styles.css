@@ -70,11 +70,73 @@ td {
 
 /* Animations */
 
+#animations {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+}
+
 .animate-btns {
     display: inline-block;
     position: relative;
     left: 34%;
 }
+
+#animations p {
+    padding: 3rem;
+}
+
+.animate-img {
+    position: relative;
+    left: 43%;
+    padding: 1rem 0 3rem 0;
+    animation: swing 2.5s linear infinite alternate;
+}
+
+@keyframes swing {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    20% {
+        left: 10%;
+        top: 3rem;
+    }
+    30% {
+        left: 20%;
+        top: 6rem;
+    }
+    40% {
+        left: 30%;
+        top: 9rem;
+    }
+    50% {
+        left: 40%;
+        top: 12rem;
+    }
+    60% {
+        left: 50%;
+        top: 12rem;
+    }
+    70% {
+        left: 60%;
+        top: 9rem;
+    }
+    80% {
+        left: 70%;
+        top: 6rem;
+    }
+    90% {
+        left: 80%;
+        top: 3rem;
+    }
+    100% {
+        left: 90%;
+        top: 0;
+    }
+}
+
+.animate-img img {}
 
 
 /* Buttons */
