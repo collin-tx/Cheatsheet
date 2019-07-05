@@ -36,6 +36,8 @@ td {
 
 /* CSS Grid */
 
+#grid {}
+
 .css-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -66,6 +68,15 @@ td {
 }
 
 
+/* Animations */
+
+.animate-btns {
+    display: inline-block;
+    position: relative;
+    left: 34%;
+}
+
+
 /* Buttons */
 
 .btn {
@@ -84,4 +95,19 @@ td {
 
 .hide {
     visibility: hidden;
+}
+
+
+/* Footer */
+
+footer .footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: darkslateblue;
+    border-bottom: 1px darksalmon solid;
 }
