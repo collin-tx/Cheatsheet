@@ -12,11 +12,12 @@ h2 {
     color: darksalmon;
 }
 
-.table-btns {
+
+/* .table-btns {
     display: inline-block;
     position: relative;
     left: 30%;
-}
+} */
 
 .html-table {
     border: 2px solid slateblue;
@@ -61,11 +62,12 @@ td {
     border: 2px solid darkslateblue;
 }
 
-.grid-btns {
+
+/* .grid-btns {
     display: inline-block;
     position: relative;
     left: 34%;
-}
+} */
 
 
 /* Animations */
@@ -76,11 +78,12 @@ td {
     margin: 0 auto;
 }
 
-.animate-btns {
+
+/* .animate-btns {
     display: inline-block;
     position: relative;
     left: 34%;
-}
+} */
 
 #animations p {
     padding: 3rem;
@@ -149,6 +152,8 @@ td {
     color: white;
     outline: none;
     cursor: pointer;
+    width: fit-content;
+    margin: 1rem;
 }
 
 .btn:hover {
@@ -157,6 +162,13 @@ td {
 
 .hide {
     visibility: hidden;
+}
+
+.table-btns,
+.animate-btns,
+.grid-btns {
+    display: flex;
+    justify-content: center;
 }
 
 
