@@ -215,6 +215,12 @@ td {
     height: 60px;
 }
 
+.flex:hover {
+    border: 2px solid lightsalmon;
+    opacity: 0.8;
+    cursor: auto;
+}
+
 .flex-1 {
     background: url(img/doggy2.jpg) no-repeat center;
 }
