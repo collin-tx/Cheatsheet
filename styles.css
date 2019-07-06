@@ -3,9 +3,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    text-align: center;
+.title {
+    display: flex;
+    justify-content: center;
 }
+
+
+/* .main h1 {
+    display: block;
+    margin: 3rem 30% 6rem 30%;
+    justify-content: center;
+    text-align: center;
+} */
 
 h2 {
     text-align: center;
@@ -18,6 +27,48 @@ h2 {
     position: relative;
     left: 30%;
 } */
+
+
+/* Nav */
+
+nav {
+    position: relative;
+    left: 32%;
+    height: 40px;
+    color: #eee;
+    margin-bottom: 6rem;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #eee;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightsalmon;
+}
+
+nav .cf {
+    background: none;
+}
+
+
+/* HTML Table */
 
 .html-table {
     border: 2px solid slateblue;
