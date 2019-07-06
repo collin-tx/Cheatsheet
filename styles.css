@@ -48,7 +48,8 @@ td {
 
 .grid-container {
     border: 1px solid salmon;
-    height: 5rem;
+    height: 7rem;
+    width: 7rem;
     background: lightslategray;
     color: white;
     align-content: center;
@@ -139,7 +140,9 @@ td {
     }
 }
 
-.animate-img img {}
+.animate-img img {
+    border-radius: 50%;
+}
 
 
 /* Flexbox */
@@ -155,8 +158,42 @@ td {
 
 .flex {
     padding: 4rem;
-    background: url(img/doggy2.jpg) no-repeat center;
     margin: 2rem;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.flex-1 {
+    background: url(img/doggy2.jpg) no-repeat center;
+}
+
+.flex-2 {
+    background: url(img/doggy3.jpg) no-repeat center;
+}
+
+.flex-3 {
+    background: url(img/doggy4.jpg) no-repeat center;
+}
+
+.flex-4 {
+    background: url(img/doggy5.jpg) no-repeat center;
+}
+
+.flex-5 {
+    background: url(img/doggy6.jpg) no-repeat center;
+}
+
+.flex-6 {
+    background: url(img/doggy7.jpg) no-repeat center;
+}
+
+.flex-7 {
+    background: url(img/doggy8.jpg) no-repeat center;
+}
+
+.flex-8 {
+    background: url(img/doggy9.jpg) no-repeat center;
 }
 
 
@@ -202,4 +239,21 @@ footer .footer {
     text-decoration: none;
     color: darkslateblue;
     border-bottom: 1px darksalmon solid;
+    margin-top: 2rem;
+}
+
+@media (max-width: 780px) {
+    .css-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        height: fit-content;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 1080px) {
+    .css-grid {
+        grid-template-columns: repeat(4, 1fr);
+        height: fit-content;
+        width: fit-content;
+    }
 }
