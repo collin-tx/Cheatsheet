@@ -292,6 +292,11 @@ td {
 
 /* Clock */
 
+.title {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
 .clock-section {
     margin: 0;
     font-size: 2rem;
