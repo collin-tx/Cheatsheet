@@ -1,6 +1,7 @@
 * {
     background: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
+    /* box-sizing: border-box; */
 }
 
 .title {
@@ -351,9 +352,13 @@ footer .footer {
 
 .footer a {
     text-decoration: none;
-    color: darkslateblue;
+    color: #eee;
     border-bottom: 1px darksalmon solid;
     margin-top: 2rem;
+}
+
+.footer a:hover {
+    color: darkslateblue;
 }
 
 @media (max-width: 780px) {
