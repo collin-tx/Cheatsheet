@@ -299,6 +299,7 @@ td {
 .title {
     font-size: 2rem;
     margin: 2rem;
+    padding-top: 6rem;
 }
 
 .clock-section {
