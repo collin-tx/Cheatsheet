@@ -258,6 +258,9 @@ td {
     font-size: 2rem;
     text-align: center;
     background: none;
+    position: relative;
+    top: 100px;
+    left: -20px;
 }
 
 
