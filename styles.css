@@ -18,11 +18,15 @@ h2 {
 /* Nav */
 
 nav {
-    position: relative;
-    left: 32%;
+    /* position: relative;
+    left: 32%; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
     height: 40px;
     color: #eee;
-    margin-bottom: 6rem;
+    margin: 4rem 0;
+    font-size: 1.2rem;
 }
 
 nav ul {
@@ -32,7 +36,7 @@ nav ul {
 
 nav li {
     display: inline;
-    float: left;
+    padding: 2rem;
 }
 
 nav a {
@@ -323,7 +327,7 @@ footer .footer {
     grid-gap: 2rem;
     margin-top: 5rem;
     margin: 0 200px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-bottom: 1px darksalmon solid;
 }
 
