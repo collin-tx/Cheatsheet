@@ -9,24 +9,10 @@
 }
 
 
-/* .main h1 {
-    display: block;
-    margin: 3rem 30% 6rem 30%;
-    justify-content: center;
-    text-align: center;
-} */
-
 h2 {
     text-align: center;
     color: darksalmon;
 }
-
-
-/* .table-btns {
-    display: inline-block;
-    position: relative;
-    left: 30%;
-} */
 
 
 /* Nav */
@@ -88,8 +74,6 @@ td {
 
 /* CSS Grid */
 
-#grid {}
-
 .css-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -113,13 +97,6 @@ td {
     background: darksalmon;
     border: 2px solid darkslateblue;
 }
-
-
-/* .grid-btns {
-    display: inline-block;
-    position: relative;
-    left: 34%;
-} */
 
 
 /* Animations */
@@ -345,6 +322,8 @@ footer .footer {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 2rem;
     margin-top: 5rem;
+    /* width: 50%;
+    margin-left: 25%; */
 }
 
 .footer a {
