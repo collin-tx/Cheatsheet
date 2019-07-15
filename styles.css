@@ -85,8 +85,8 @@ td {
 
 .grid-container {
     border: 1px solid salmon;
-    height: 7rem;
-    width: 7rem;
+    /* height: 7rem;
+    width: 7rem; */
     background: lightslategray;
     color: white;
     align-content: center;
@@ -100,6 +100,21 @@ td {
     border: 2px solid darkslateblue;
 }
 
+.grid1 {
+    grid-row: 1 / 4;
+}
+
+.grid7 {
+    grid-column: 3/5;
+}
+
+.grid6 {
+    grid-row: 2 / 4;
+}
+
+.grid9 {
+    grid-column: 3 / 5;
+}
 
 /* Animations */
 
