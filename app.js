@@ -77,7 +77,7 @@ const setDate = () => {
     const hoursDegrees = ((hours / 12) * 360 + 90);
     hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
 }
-setInterval(setDate, 1000);
+// setInterval(setDate, 1000);
 
 
 
@@ -98,3 +98,14 @@ $('.cf a').on('click', function(event) {
         );
     }
 });
+
+
+// Entertainment section
+const entertainmentList = ["Read a book", "Watch a movie", "Write a song", "Listen to a good album", "Volunteer at a food bank", "Learn to code"];
+randomEnt = () => {
+   const rand = Math.floor(Math.random() * entertainmentList.length);
+   return entertainmentList[rand];
+//    console.log(entertainmentList[rand]);
+}
+
+randomEnt();
