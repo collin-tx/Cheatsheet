@@ -328,6 +328,15 @@ td {
 }
 
 
+/* entertainment */
+
+.entertainment {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+
+}
+
 /* Footer */
 
 footer .footer {
