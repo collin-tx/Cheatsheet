@@ -10,6 +10,9 @@ const animation = document.querySelector('.animate-img');
 const showPuppy = document.querySelector(".show-animate-btn");
 const hidePuppy = document.querySelector(".hide-animate-btn");
 
+const entButton = document.querySelector(".ent-btn");
+const entParagraph = document.querySelector(".entertainment-text");
+
 // displays table
 function showTable(e) {
     table.classList.remove('hide');
@@ -108,4 +111,8 @@ randomEnt = () => {
 //    console.log(entertainmentList[rand]);
 }
 
-randomEnt();
+relieveBoredom = (e) => {
+    entParagraph.innerHTML = randomEnt();
+}
+
+entButton.addEventListener('click', relieveBoredom);
