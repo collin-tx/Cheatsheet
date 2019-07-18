@@ -337,6 +337,11 @@ td {
     position: relative;
 }
 
+.entertainment-text {
+    font-size: 1.2rem;
+    color: darkslategray;
+}
+
 /* Footer */
 
 footer .footer {
