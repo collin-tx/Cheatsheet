@@ -104,7 +104,7 @@ $('.cf a').on('click', function(event) {
 
 
 // Entertainment section
-const entertainmentList = ["Read a book", "Watch a movie", "Write a song", "Listen to a good album", "Volunteer at a food bank", "Learn to code"];
+const entertainmentList = ["Read a book", "Watch a movie", "Write a song", "Listen to a good album", "Volunteer at a food bank", "Learn to code", "Go for a run", "Call an old friend", "Go for a walk", "Play a video game"];
 randomEnt = () => {
    const rand = Math.floor(Math.random() * entertainmentList.length);
    return entertainmentList[rand];
