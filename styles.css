@@ -348,9 +348,9 @@ footer .footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 2rem;
-    margin: 5rem 200px 0 200px;
+    margin: 5rem 170px 0 170px;
     font-size: 0.9rem;
-    border-bottom: 1px darksalmon solid;
+    /* border-bottom: 1px darksalmon solid; */
 }
 
 .footer a {
