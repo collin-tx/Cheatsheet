@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Questrial&display=swap');
+
 * {
     background: lightgrey;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Amiri', Helvetica, sans-serif;
+}
+
+.main {
+    font-family: 'Questrial', sans-serif;
 }
 
 .title {
     display: flex;
     justify-content: center;
+    font-family: 'Questrial', sans-serif;
 }
 
 
