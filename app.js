@@ -1,67 +1,67 @@
-const showButton = document.querySelector(".show-btn");
-const hideButton = document.querySelector(".hide-btn");
-const table = document.querySelector('.div-1');
+const showButton = $(".show-btn");
+const hideButton = $(".hide-btn");
+const table = $('.div-1');
 
-const grid = document.querySelector('.css-grid');
-const gridShowButton = document.querySelector(".show-grid-btn");
-const gridHideButton = document.querySelector(".hide-grid-btn");
+const grid = $('.css-grid');
+const gridShowButton = $(".show-grid-btn");
+const gridHideButton = $(".hide-grid-btn");
 
-const animation = document.querySelector('.animate-img');
-const showPuppy = document.querySelector(".show-animate-btn");
-const hidePuppy = document.querySelector(".hide-animate-btn");
+const animation = $('.animate-img');
+const showPuppy = $(".show-animate-btn");
+const hidePuppy = $(".hide-animate-btn");
 
-const entButton = document.querySelector(".ent-btn");
-const entParagraph = document.querySelector(".entertainment-text");
+const entButton = $(".ent-btn");
+const entParagraph = $(".entertainment-text");
 
 // displays table
 function showTable(e) {
-    table.classList.remove('hide');
+    table.removeClass('hide');
 }
 // when clicked, table will appear
-showButton.addEventListener("click", showTable);
+showButton.on("click", showTable);
 
 // Hides table
 function hideTable(e) {
-    table.classList.add('hide');
+    table.addClass('hide');
 }
 
 //when clicked, table will disappear
-hideButton.addEventListener('click', hideTable);
+hideButton.on('click', hideTable);
 
 
 
 // displays grid
 function showGrid(e) {
-    grid.classList.remove('hide');
+    grid.removeClass('hide');
 }
 // when clicked, grid will appear
-gridShowButton.addEventListener("click", showGrid);
+gridShowButton.on("click", showGrid);
 
 // Hides grid
 function hideGrid(e) {
-    grid.classList.add('hide');
+    grid.addClass('hide');
 }
 
 //when clicked, grid will disappear
-gridHideButton.addEventListener('click', hideGrid);
+gridHideButton.on('click', hideGrid);
 
 
 
 
 // displays animation
 function showAnimation(e) {
-    animation.classList.remove('hide');
+    animation.removeClass('hide');
 }
 // when clicked, puppy will appear
-showPuppy.addEventListener("click", showAnimation);
+showPuppy.on("click", showAnimation);
 
 // Hides puppy
 function hideAnimation(e) {
-    animation.classList.add('hide');
+    animation.addClass('hide');
 }
 
 //when clicked, pup will disappear
-hidePuppy.addEventListener('click', hideAnimation);
+hidePuppy.on('click', hideAnimation);
 
 
 // clock 
@@ -111,7 +111,7 @@ randomEnt = () => {
 }
 
 relieveBoredom = (e) => {
-    entParagraph.innerHTML = randomEnt();
+    entParagraph.text(randomEnt());
 }
 
-entButton.addEventListener('click', relieveBoredom);
+entButton.on('click', relieveBoredom);
