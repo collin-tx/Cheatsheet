@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Amiri|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 
 * {
     background: lightgrey;
-    font-family: 'Amiri', Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -23,6 +23,7 @@ h2 {
 
 
 /* Nav */
+
 
 nav {
     display: flex;
@@ -58,9 +59,6 @@ nav a:hover {
     color: lightsalmon;
 }
 
-nav .cf {
-    background: none;
-}
 
 
 /* HTML Table */
@@ -410,4 +408,9 @@ footer .footer {
         width: fit-content;
         margin: 0 auto;
     }
+}
+
+
+#header {
+    background: #000111;
 }
