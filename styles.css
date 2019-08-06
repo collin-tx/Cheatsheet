@@ -59,8 +59,6 @@ nav a:hover {
     color: lightsalmon;
 }
 
-
-
 /* HTML Table */
 
 .html-table {
@@ -90,8 +88,6 @@ td {
 
 .grid-container {
     border: 1px solid salmon;
-    /* height: 7rem;
-    width: 7rem; */
     background: lightslategray;
     color: white;
     align-content: center;
@@ -355,7 +351,6 @@ footer .footer {
     grid-gap: 2rem;
     margin: 5rem 170px 0 170px;
     font-size: 0.9rem;
-    /* border-bottom: 1px darksalmon solid; */
 }
 
 .footer a {
