@@ -1,67 +1,69 @@
+// Tables
 const showButton = $(".show-btn");
-const hideButton = $(".hide-btn");
 const table = $('.div-1');
 
+const tablesObj = {
+    showing: false,
+    clickHandler: function(){
+        this.showing = !this.showing;
+        if (this.showing){
+            table.removeClass('hide');
+            showButton.text('Hide Tables Cheatsheet');
+        } else {
+            table.addClass('hide');
+            showButton.text('Show Tables Cheatsheet');
+        }
+    }
+}
+showButton.on("click", tablesObj.clickHandler);
+
+// Grid
 const grid = $('.css-grid');
 const gridShowButton = $(".show-grid-btn");
-const gridHideButton = $(".hide-grid-btn");
+const gridObj = {
+    showing: false,
+    clickHandler: function(){
+        this.showing = !this.showing;
+        if (this.showing){
+            grid.removeClass('hide');
+            gridShowButton.text('Hide Grid Cheatsheet');
+        } else {
+            grid.addClass('hide');
+            gridShowButton.text('Show Grid Cheatsheet');
+        }
+    }
+}
+gridShowButton.on("click", gridObj.clickHandler);
 
+
+
+//Animation
 const animation = $('.animate-img');
 const showPuppy = $(".show-animate-btn");
-const hidePuppy = $(".hide-animate-btn");
 
+const animationObj = {
+    showing: false,
+    clickHandler: function(){
+        this.showing = !this.showing;
+        if (this.showing){
+            animation.removeClass('hide');
+            showPuppy.text('Hide Puppy');
+        } else {
+            animation.addClass('hide');
+            showPuppy.text('Show Puppy');
+        }
+    }
+}
+showPuppy.on("click", animationObj.clickHandler);
+
+
+
+
+// Entertainment
 const entButton = $(".ent-btn");
 const entParagraph = $(".entertainment-text");
 
-// displays table
-function showTable(e) {
-    table.removeClass('hide');
-}
-// when clicked, table will appear
-showButton.on("click", showTable);
 
-// Hides table
-function hideTable(e) {
-    table.addClass('hide');
-}
-
-//when clicked, table will disappear
-hideButton.on('click', hideTable);
-
-
-
-// displays grid
-function showGrid(e) {
-    grid.removeClass('hide');
-}
-// when clicked, grid will appear
-gridShowButton.on("click", showGrid);
-
-// Hides grid
-function hideGrid(e) {
-    grid.addClass('hide');
-}
-
-//when clicked, grid will disappear
-gridHideButton.on('click', hideGrid);
-
-
-
-
-// displays animation
-function showAnimation(e) {
-    animation.removeClass('hide');
-}
-// when clicked, puppy will appear
-showPuppy.on("click", showAnimation);
-
-// Hides puppy
-function hideAnimation(e) {
-    animation.addClass('hide');
-}
-
-//when clicked, pup will disappear
-hidePuppy.on('click', hideAnimation);
 
 
 // clock 
